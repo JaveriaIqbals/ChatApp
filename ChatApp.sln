@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ChatApp\ClientApp.csproj", "{073E31FC-4281-4A3B-96E1-9E613125A457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPIPServer", "TCPIPServer\TCPIPServer.csproj", "{069C7862-9F9C-4DB3-AFEE-5E37835C4A60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073E31FC-4281-4A3B-96E1-9E613125A457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073E31FC-4281-4A3B-96E1-9E613125A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073E31FC-4281-4A3B-96E1-9E613125A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073E31FC-4281-4A3B-96E1-9E613125A457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069C7862-9F9C-4DB3-AFEE-5E37835C4A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069C7862-9F9C-4DB3-AFEE-5E37835C4A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069C7862-9F9C-4DB3-AFEE-5E37835C4A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069C7862-9F9C-4DB3-AFEE-5E37835C4A60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48EC6E72-3A92-4EBD-94BC-29C2DDAA65EF}
+	EndGlobalSection
+EndGlobal
